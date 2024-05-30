@@ -18,10 +18,10 @@ This repo contains the scripts used for analysis of the assay for transposes-acc
 
 ## HOW TO RUN THE PIPELINE:
 - INPUT PATHS:
-    FASTQ_DIR   =</path/of/the/directory/containing/fastq/files>
-    REF_DIR     =</path/of/the/directory/containing/fastq/files>
-    RESULTS_DIR =</path/of/the/directory/to/store/results>
-    SPECIES     =</reference_genome/>
+    - FASTQ_DIR   =</path/of/the/directory/containing/fastq/files>
+    - REF_DIR     =</path/of/the/directory/containing/fastq/files>
+    - RESULTS_DIR =</path/of/the/directory/to/store/results>
+    - SPECIES     =</reference_genome/>
 
 - Command:
     bash atac-seq-script.sh <FASTQ_DIR> <REF_DIR> <RESULTS_DIR> <species>
