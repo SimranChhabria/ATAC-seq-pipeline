@@ -1,6 +1,10 @@
 # ATAC-seq analysis:
 
-This repo contains the scripts used for analysis of the assay for transposes-accessible chromatin sequencing analysis (ATAC-seq)
+This repo contains the scripts used for analysis of the assay for transposase-accessible chromatin with sequencing analysis (ATAC-seq),a method for determining chromatin accessibility across the genome. 
+
+## PIPELINE FLOWCHART:
+
+![Alt text](image.png)
 
 ## STEPS:
 - Pre-processing:
@@ -24,7 +28,7 @@ This repo contains the scripts used for analysis of the assay for transposes-acc
     - SPECIES     =</reference_genome/>
 
 - Command:
-    bash atac-seq-script.sh <FASTQ_DIR> <REF_DIR> <RESULTS_DIR> <species>
+    - bash atac-seq-script.sh <FASTQ_DIR> <REF_DIR> <RESULTS_DIR> <species>
 
 - OUTPUT FOLDER:
     - align                 : mapped bam files
@@ -33,8 +37,6 @@ This repo contains the scripts used for analysis of the assay for transposes-acc
     - peak_files            : narrow.peak files generated from macs2 and genrich
     - trim_ngmerge_fastq    : adapter trimmed fastq files
 
-## PIPELINE FLOWCHART:
 
-![Alt text](image.png)
 
 
