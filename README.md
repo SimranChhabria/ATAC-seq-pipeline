@@ -35,7 +35,7 @@ conda activate ATAC_seq
 
 - Command:
 ```
-    - bash atac-seq-script.sh <FASTQ_DIR> <REF_DIR> <RESULTS_DIR> <species>
+    bash atac-seq-script.sh <FASTQ_DIR> <REF_DIR> <RESULTS_DIR> <species>
 ```
 
 - OUTPUT FOLDER:
