@@ -4,7 +4,7 @@ This repo contains the scripts used for analysis of the assay for transposase-ac
 
 ## PIPELINE FLOWCHART:
 
-![Alt text](image.png)
+![Alt text](ATAC-seq.png)
 
 ## STEPS:
 - Pre-processing:
@@ -20,10 +20,16 @@ This repo contains the scripts used for analysis of the assay for transposase-ac
     - macs2
     - Genrich
 
+## CONDA ENVIRONMENT: 
+- Create a new conda environment and installing tools needed for atac-seq-script.sh script
+```
+conda create -f conda_envs/ATAC_seq.yml
+conda activate ATAC_seq
+```
 ## HOW TO RUN THE PIPELINE:
 - INPUT PATHS:
     - FASTQ_DIR   =</path/of/the/directory/containing/fastq/files>
-    - REF_DIR     =</path/of/the/directory/containing/fastq/files>
+    - REF_DIR     =</path/of/the/directory/containing/reference/files>
     - RESULTS_DIR =</path/of/the/directory/to/store/results>
     - SPECIES     =</reference_genome/>
 

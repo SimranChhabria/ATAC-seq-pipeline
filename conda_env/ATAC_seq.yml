@@ -1,0 +1,8 @@
+name: ATAC-seq
+channels:
+  - bioconda
+  - r
+  - kbchoi
+  - conda-forge
+  - defaults
+prefix: /ru-auth/local/home/schhabria/miniconda/envs/ATAC-seq
